@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         File: osa-revtex4-1.tex                             %
+%                        Date: April 15, 2013                                 %
+%                                                                             %
+%                              BETA VERSION!                                  %
+%                   JOSA A, JOSA B, Applied Optics, Optics Letters            %
+%                                                                             %
+%            This file requires the substyle file osajnl4-1.rtx,              %
+%                   running under REVTeX 4.1 and LaTeX 2e                     %
+%                                                                             %
+%                   USE THE FOLLOWING REVTeX 4-1 OPTIONS:                     %
+% \documentclass[osajnl,twocolumn,showpacs,superscriptaddress,10pt]{revtex4-1}%
+%                    %% Use 11pt for Applied Optics                           %
+%                                                                             %
+%               (c) 2013 The Optical Society of America                       %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[osajnl,twocolumn,showpacs,superscriptaddress,11pt]{revtex4-1} %% use 11pt for Applied Optics
+%%\documentclass[osajnl,preprint,showpacs,superscriptaddress,12pt]{revtex4-1} %% use 12pt for preprint option
+\usepackage{amsmath,amssymb,graphicx,float,minted}
+\usepackage[utf8]{inputenc}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+\title{Review. "Interacción entre C y Python motivada por las particularidades del desarrollo del software científico".}
+
+% \author{Ulises Jeremias Cornejo Fandos}
+% \affiliation{Licenciatura en Informática, Facultad de Informática, UNLP}
+
+\begin{abstract}
+
+\end{abstract}
+
+\maketitle %% required
+
+\section{Introducción}
+
+El presente referato busca analizar y dar opinión respecto del artículo \textit{"Interacción entre C y Python motivada por las particularidades del desarrollo del software científico"}. El evaluador del mismo opina que el artículo no es bueno y se deberían revisar muchos aspectos detallados en las sub secciones siguientes. \\
+
+\section{Claridad y Estructura del Texto}
+
+El artículo carece de estructura presentando una \textit{eterna} sección de "Introducción" la cual no parece finalizar, o al menos, no puede identificarse fácilmente cual es el comienzo y el fin de cada sección del mismo. Se recomienda redefinir completamente la estructura del artículo en este aspecto, dado que la estructura actual complica bastante la lectura, haciendo que el mismo no sea claro y preciso. \\
+
+\section{Planteo de objetivos (son explícitos o no; se cumplen o no)}
+
+El artículo presenta dos secciones las cuales permiten plantear explícitamente cada uno de los objetivos del informe. Uno de ellos es el \textit{Resumen}. En el mismo se expone, en cierta forma, un objetivo bastante abarcativo como es el de \textit{"Proponer un recorrido con ejemplos de implementación
+claros y comparaciones para poder conectar C y Python del modo más adecuado para desarrollar una librería para el cálculo"}. Es conveniente considerar la idea de plasmar un objetivo más específico y claro en el desarrollo de la introducción, sección la cual se considera, es propicia para contener este tipo de contenidos. \\
+
+Evaluando cuidadosamente cada uno de los conceptos y ejemplos planteados a lo largo del informe, se observa que los objetivos implícitos específicos del mismo cubren aspectos tales como el análisis de rendimiento, buenas prácticas y tecnologías más utilizadas para el ámbito de la computación científica con C y Python. Se considera que los mismos no se cumplen en su totalidad, dejando ciertas expectativas inconclusas. Sin embargo, y siendo que los objetivos mencionados son deducciones del evaluador, se puede decir que el informe cumple en menor o mayor medida con el objetivo explícito planteado. \\
+
+\section{Relevancia de la temática. Aportes al campo. Originalidad}
+
+El estudio de la temática planteada en el informe es de suma importancia para el área de la computación. La construcción y optimización de modelos matemáticos y técnicas numéricas resulta de vital importancia para la resolución de problemas científicos y de ingeniería. Sin embargo, el estado del arte nos muestra que los temas presentes en este informe no aportan contenido nuevo al campo de estudio. No obstante, resulta ser una buena guía de carácter introductorio para toda persona, usuario científico o no, que deseé introducirse en este área. \\
+
+En la actualidad existen numerosas guías que nos permiten acceder a información similar o más completa que la plasmada en el informe. Por lo que se considera que, sin originalidad, el artículo no resulta en un aporte real al área. \\
+
+\section{Redacción y capacidad argumental}
+
+Respecto de la redacción, existen algunos items a remarcar que podrían ser de gran ayuda para el planteamiento de ideas y argumentos. Siendo estricto, los informes suelen escribirse utilizando la categoría gramatical de tercera persona del singular, el cual resulta adecuado para referir de forma objetiva a un proceso experimental o guía de obtención del conocimiento de forma objetiva y aislada al lector. \\
+
+Dejando de lado las directivas estrictas de redacción, se puede destacar que algunos de los argumentos planteados en el informe no presentan fuentes sólidas sobre las que apoyarse. Sin embargo esto se menciona en otra de las subsecciones. Respecto de la redacción, en terminos generales es correcta y permite leer el artículo sin mayores problemas. \\
+
+\section{Rigor metodológico}
+
+Respecto de este punto surgen ciertas dudas sobre los tiempos de ejecución planteados y condiciones de ejecución de los programas. Sería oportuno conocer características específicas de la computadora en las cuales se ejecutan, versiones de los compiladores e interpretes utilizados, etc. \\
+
+Además no estaría demás conocer el espacio de memoria ocupado en la ejecución de cada uno, ya que e.g., estaría bueno saber la diferencia espacial entre el programa resuelto con C y el resuelto con NumPy, ejemplos de las figuras 2 y 3 respectivamente. \\
+
+Al momento de desarrollar para computación científica, no solo nos importa la complejidad temporal de una solución, sino también la espacial, aspecto el cual no se trata en ningún momento a lo largo de todo el informe. \\
+
+\section{Referencias y conocimiento bibliográfico sobre el campo de estudio}
+
+Las referencias presentadas en el informe resultan pobres para todo lo que se promete en el mismo. No resulta correcto presentar páginas de lenguajes como fundamento o información específica al momento de indagar un tema tan específico como el que se presenta. Estaría muy bueno que se muestre bibliografía más específica de cada uno de los temas planteados. \\
+
+
+
+\end{document}
